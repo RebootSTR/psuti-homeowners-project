@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/indicationsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/tab_bottom_counters_caption"
+        />
+    <item
+        android:id="@+id/requestFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_receipt_black_24dp"
+        android:title="@string/tab_bottom_requests_caption"
+        />
+    <item
+        android:id="@+id/profileFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/tab_bottom_profile_caption"
+        />
+</menu>

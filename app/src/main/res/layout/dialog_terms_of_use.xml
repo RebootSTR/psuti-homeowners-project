@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    android:paddingVertical="8dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1.1. Использование материалов и сервисов Приложения регулируется нормами действующего законодательства Российской Федерации.\n1.2. Настоящее Соглашение является публичной офертой. Получая доступ к материалам Приложения Пользователь считается присоединившимся к настоящему Соглашению.\n1.3. Администрация Приложения вправе в любое время в одностороннем порядке изменять условия настоящего Соглашения. Такие изменения вступают в силу по истечении 3 (Трех) дней с момента размещения новой версии Соглашения в Приложении. При несогласии Пользователя с внесенными изменениями он обязан отказаться от доступа к Приложению, прекратить использование материалов и сервисов Приложения."
+        />
+</ScrollView>

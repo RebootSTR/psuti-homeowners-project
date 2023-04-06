@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Homeowners Data Feed</string>
+    <string name="tab_bottom_accruals_caption">Начисления</string>
+    <string name="tab_bottom_counters_caption">Показания</string>
+    <string name="tab_bottom_requests_caption">Заявки</string>
+    <string name="tab_bottom_news_caption">Новости</string>
+    <string name="tab_bottom_profile_caption">Профиль</string>
+    <string name="tab_indications_apply">Подать показания</string>
+    <string name="tab_indications_history">История</string>
+    <string-array name="counter_types">
+        <item>Газ</item>
+        <item>Холодная вода</item>
+        <item>Горячая вода</item>
+        <item>Электричество</item>
+    </string-array>
+
+    <string name="text_view_login_text">Вход в личный кабинет</string>
+    <string name="text_input_phone_number_hint">Номер телефона</string>
+    <string name="button_continue_text">Далее</string>
+    <string name="button_demo_text">Демо-режим</string>
+
+    <string name="text_view_change_number_text">Поменять номер</string>
+    <string name="text_view_send_code_description">Пожалуйста, введите одноразовый пароль, отправленный на номер \n%s:</string>
+    <string name="text_input_code_hint">Одноразовый пароль</string>
+    <string name="button_resend_code_text_resend_code">Повторно отправить пароль</string>
+    <string name="button_resend_code_text_until_resend">Код отправлен. Новый код через: %d</string>
+    <string name="text_view_terms_of_use_text">Я согласен с пользовательским соглашением и политикой обработки персональных данных</string>
+    <string name="error_code">Введен неверный код</string>
+
+    <string name="text_view_support_text">Служба поддержки</string>
+    <string name="button_confirm_text">Войти</string>
+
+    <string name="content_descr_logo">Logo</string>
+    <string name="content_decr_back">Back</string>
+    <string name="creating_request">Создание заявки</string>
+    <string name="first_name_dt">Имя:</string>
+    <string name="middle_name_dt">Отчество:</string>
+    <string name="phone_dt">Телефон:</string>
+    <string name="last_name_dt">Фамилия:</string>
+    <string name="email_dt">Электронная почта:</string>
+    <string name="house_dt">Дом:</string>
+    <string name="room_dt">Квартира:</string>
+    <string name="building_dt">Крп/Стр:</string>
+    <string name="street_dt">Улица:</string>
+    <string name="theme">Тема обращения</string>
+    <string name="request_text">Текст обращения</string>
+    <string name="attach_file">Прикрепить файл</string>
+    <string name="file_name">Файл: %s</string>
+    <string name="send">Отправить</string>
+    <string name="request_history">История заявок</string>
+    <string name="date">Дата</string>
+    <string name="request_status">Статус заявки</string>
+    <string name="address_dt">Адрес:</string>
+
+
+    <string name="text_view_registration">Регистрация</string>
+    <string name="text_view_surname">Фамилия</string>
+    <string name="text_view_name">Имя</string>
+    <string name="text_view_patronymic">Отчество</string>
+    <string name="text_view_mobile_phone">Мобильный телефон</string>
+    <string name="text_view_email">Электронная почта</string>
+    <string name="button_text_registration">Зарегистрироваться</string>
+    <string name="cancel">Отмена</string>
+    <string name="required">Обязательно</string>
+    <string name="optional">Опционально</string>
+    <string name="terms_of_use">Пользовательское соглашение</string>
+    <string name="disclosure_Policy">Политика обработки персональных данных</string>
+    <string name="continue_text">Продолжить</string>
+    <string name="last_name_error">Фамилия введена в некорректной форме</string>
+    <string name="first_name_error">Имя введено в некорректной форме</string>
+    <string name="middle_name_error">Отчество введено в некорректной форме</string>
+    <string name="email_error">Email введен в некорректной форме</string>
+    <string name="city_error">Город введен в некорректной форме</string>
+    <string name="street_error">Улица введена в некорректной форме</string>
+    <string name="city">Город</string>
+    <string name="street">Улица</string>
+    <string name="house">Дом</string>
+    <string name="kor_str">Крп/Стр</string>
+    <string name="apartment">Квартира</string>
+
+    <string name="change">Изменить</string>
+    <string name="save_changes">Сохранить изменения</string>
+    <string name="city_dp">Город:</string>
+
+    <string name="backend_version">Версия backend: v%s</string>
+    <string name="backend_version_error">Ошибка при получении версии Backend</string>
+    <string name="app_version">Версия приложения: v1.0.0</string>
+    <string name="change_request">Изменить заявку</string>
+    <string name="edit_request_mode">Режим редактирования заявки</string>
+    <string name="x">X</string>
+    <string name="counter_current_empty_error">"Необходимо ввести показания"</string>
+    <string name="counter_type_empty_error">"Необходимо выбрать счетчик"</string>
+    <string name="counter_dialog_add_title">"Добавить показания"</string>
+    <string name="counter_dialog_edit_title">"Редактировать показания"</string>
+    <string name="dialog_apply">Применить</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="counter_dialog_validation_error">"Неверно введено значение"</string>
+    <string name="counter_empty_dialog_title">"Ваш список счетчиков пуст, хотите создать заявку на добавление?"</string>
+    <string name="counter_empty_dialog_message">"Список счетчиков пуст"</string>
+    <string name="dialog_ok">Ок</string>
+    <string name="filters_dialog_title">Фильтры</string>
+    <string name="counters_dialog_add_type_hint">Выбрать счетчик</string>
+    <string name="counters_dialog_add_prev_hint">Предыдущие показания</string>
+    <string name="counters_dialog_add_curr_hint">Текущие показания</string>
+    <string name="counters_dialog_filter_date_hint">По дате</string>
+    <string name="counters_dialog_filter_type_hint">По типу счетчика</string>
+    <string name="counters_address">Адрес</string>
+    <string name="counters_prev_title">Счетчики - предыдущие показания</string>
+    <string name="counters_curr_title">Счетчики - текущие показания</string>
+    <string name="counters_add_entry_button">Добавить показания</string>
+    <string name="counters_send_button">Отправить</string>
+    <string name="error_no_connection">Нет подключения к сети</string>
+    <string name="current_url">Текущий URL сервера: %s</string>
+</resources>
