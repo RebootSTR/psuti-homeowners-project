@@ -18,7 +18,10 @@
 </div>
 
 <script>
-window.location.href = "https://github.com/RebootSTR/psuti-homeowners-project/tree/develop"
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "https://raw.githubusercontent.com/RebootSTR/psuti-homeowners-project/url/url.txt", false );
+    xmlHttp.send( null );
+	window.location.href = xmlHttp.responseText;;
 </script>
 
 </body>
